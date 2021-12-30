@@ -169,6 +169,7 @@ figcaption {
 }
 
 .section.wo-padding.stopka {
+  position: relative;
   margin-top: 0px;
   text-align: left;
 }
@@ -1927,11 +1928,12 @@ figcaption {
 .image-5 {
   position: absolute;
   left: auto;
-  top: 14px;
-  right: auto;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
   margin-top: 0px;
   margin-bottom: 0px;
-  margin-left: 259px;
+  margin-left: 0px;
   padding-top: 0px;
   padding-bottom: 0px;
   text-align: right;
@@ -2383,6 +2385,10 @@ figcaption {
     margin-top: 17px;
   }
 
+  .section.wo-padding.stopka {
+    position: relative;
+  }
+
   .heading-jumbo {
     text-align: center;
   }
@@ -2407,6 +2413,23 @@ figcaption {
 
   .text-field-2 {
     padding-left: 20px;
+  }
+
+  .div-block-15 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .image-5 {
+    position: absolute;
+    left: auto;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    margin-left: 0px;
   }
 }
 
