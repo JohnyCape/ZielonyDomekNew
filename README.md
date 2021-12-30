@@ -1,2 +1,0 @@
-# ZielonyDomekNew
-Created with CodeSandbox
